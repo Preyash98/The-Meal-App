@@ -44,7 +44,7 @@ This Website is designed as an assignment for IDT summer internship.
 
 
 
-**(5) Interal Storage Structure**
+**(5) Internal Storage Structure**
 
 ![](Images/ItemCounts_Local_Storage.jpg)
 
