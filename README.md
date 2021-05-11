@@ -17,3 +17,34 @@ This Website is designed as an assignment for IDT summer internship.
 
 -> To see those in local storage press F12. Then go to Application. And in the Application Local sotrage will have: 
    (1) LIKE : for Favorite Receipe id Array and (2) ITEMCOUNT: for key value pair dictionary of receipe got searched.
+
+**SCREENSHOTS**
+
+**(1) Index.html**
+
+![](Images/Home%20Page.png)
+
+
+
+**(2) Search Result**
+
+![](Images/Search%20Result.jpg)
+
+
+
+**(3) Receipe Instruction**
+
+![](Images/Receipe%20Instruction.jpg)
+
+
+
+**(4) Favorite Receipe List**
+
+![](Images/Favorites.jpg)
+
+
+
+**(5) Interal Storage Structure**
+
+![](Images/ItemCounts_Local_Storage.jpg)
+
