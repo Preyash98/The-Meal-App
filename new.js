@@ -64,7 +64,7 @@ FrecipeCloseBtn.addEventListener('click', () => {
 
 let html = "";
 for (i = 0; i < likeArr.length; i++) {
-    console.log(likeArr[i]);
+    //console.log(likeArr[i]);
     fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${likeArr[i]}`)
         .then(response => response.json())
         .then(data => {

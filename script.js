@@ -24,17 +24,17 @@ function getMealList() {
     let searchInputTxt = document.getElementById('search-input').value.trim();
 
     if (JSON.stringify(itemcount) === "{}") {
-        console.log("this worked");
+        //console.log("this worked");
         itemcount = { [searchInputTxt]: 1 };
 
     } else {
 
-        console.log("that worked");
+        //console.log("that worked");
         if ([searchInputTxt] in itemcount) {
-            console.log("if worked!");
+            //console.log("if worked!");
             itemcount[[searchInputTxt]] += 1;
         } else {
-            console.log("else worked!");
+            //console.log("else worked!");
             itemcount[[searchInputTxt]] = 1;
         }
         
@@ -187,7 +187,7 @@ function getMealRecipe(e) {
 
 // create a modal
 function mealRecipeModal(meal) {
-    console.log(meal);
+    //console.log(meal);
     meal = meal[0];
     let html = `
         <h2 class = "recipe-title">${meal.strMeal}</h2>
