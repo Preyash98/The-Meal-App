@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find your meal recepies here</title>
+     <link rel="stylesheet" type="text/css" href="https://demo.plantpot.works/assets/css/normalize.css"> 
+    <link rel="stylesheet" href="https://use.typekit.net/opg3wle.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/dd1c65c443.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="meal-wrapper">
+
+      <div class="meal-search">
+        <h2 class="title">The Meal App</h2>
+        
+
+        <div class="meal-search-box">
+          <select class="dropdownmenu" id="myselect">
+            <option value="1">Name</option>
+            <option value="2">Ingredient</option>
+            <option value="3">Categories</option>
+          </select>
+          <input type="text" class="search-control" placeholder="Enter youe search here" id="search-input">
+          <button type="submit" class="search-btn btn" id="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="meal-result">
+          <a href="Favorite.html"> <button type="button" class="button1">Favourite Recipes</button></a>
+
+          <h2 class="title">Your Search Results:</h2>
+          <div id="meal">
+             
+
+          </div>
+      </div>
+
+
+      <div class="meal-details">
+        <!-- recipe close btn -->
+        <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+
+        <!-- meal content -->
+        <div class="meal-details-content">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+<script src="script.js"></script>
+<script src="new.js"></script>
+
+
+
+
+</html>
