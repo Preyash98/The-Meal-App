@@ -1,6 +1,4 @@
 # The-Meal-App
-This Website is designed as an assignment for IDT summer internship.
-
 -> API used to get database is: https://www.themealdb.com/api.php (It's an open database!) 
 -> Below are the functionalities website have: (i) Search by Name (ii) Search by Ingredient (iii) Search by Category
 
